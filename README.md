@@ -4,7 +4,7 @@ Useful tools to translate genes in Python
     
 This tool consists one module:
 
-- `translate6frames`: tools to translate gene sequences to protein sequences (all 6 frames)
+- `translate6frames`: tool to translate gene sequences to protein sequences (all 6 frames)
 
 # Installation
  
