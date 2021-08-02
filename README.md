@@ -1,4 +1,4 @@
-Useful tools to work with Elastic stack in Python
+Useful tools to translate genes in Python
 
 # Description
     
