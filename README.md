@@ -25,6 +25,6 @@ git clone https://github.com/khaledianehdieh/translate6frames.git
 ```
 python3
 >>> from translate6frames import translate6frames as TF
->>> p= TF.translate6frames(FASTA_FILE, TYPE) # the fasta file is the input gene file, the type is "DNA", or "RNA"
+>>> p= TF.translate6frames(FASTA_FILE, TYPE) # FASTA_FILE is the input gene file, the TYPE is "DNA", or "RNA"
 >>> p.Output()
 ```
