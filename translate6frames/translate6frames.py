@@ -183,7 +183,9 @@ class translate6frames:
         f_5.close()
         f_6.close()
             
-            
-# p1 = translate6frames("test.fa", "DNA")
-# p1.Output()
+
+if __name__ == "__main__":
+	pass           
+	# p1 = translate6frames("test.fa", "DNA")
+	# p1.Output()
 

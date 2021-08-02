@@ -1,3 +1,21 @@
-# Translate6frame package
+Useful tools to work with Elastic stack in Python
 
-This tool is used to translate RNA/DNA sequences to six possible frames (reverse/complement). It takes a fasta file as an input and returns six fasta files (one for each frame) and one csv file. 
+# Description
+    
+This tool consists one module:
+
+- `translate6frames`: tools to translate gene sequences to protein sequences (all 6 frames)
+
+# Installation
+ 
+## Normal installation
+
+```bash
+pip install translate6frames
+```
+
+## Development installation
+
+```bash
+git clone https://github.com/khaledianehdieh/translate6frames.git
+```

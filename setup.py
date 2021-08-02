@@ -1,35 +1,27 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug  1 15:35:05 2021
+from setuptools import setup, find_packages
 
-@author: ekhaledian
-"""
+with open('README.md') as readme_file:
+    README = readme_file.read()
 
-import setuptools
+with open('HISTORY.md') as history_file:
+    HISTORY = history_file.read()
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
-setuptools.setup(
-    name="Translate6Frames",
-    version="0.0.1",
-    author="Ehdieh Khaledian",
-    author_email="khaledianehdieh@gmail.com",
-    description="Translate genes to proteins",
-    long_description=long_description,
+setup_args = dict(
+    name='translate6frames',
+    version='0.1',
+    description='translate genes RNA/DNA to proteins (all 6 frames)',
     long_description_content_type="text/markdown",
-    url="https://github.com/khaledianehdieh/Translate6Frames.git",
-    install_requires=['pandas'],    
-    project_urls={
-        "Bug Tracker": "https://github.com/khaledianehdieh/Translate6Frames/issues",
-    },
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.6",
+    long_description=README + '\n\n' + HISTORY,
+    license='MIT',
+    packages=find_packages(),
+    author='Ehdieh Khaledian',
+    author_email='khaledianehdieh@gmail.com',
+    keywords=['Translate genes', '6 frame', 'gene to protein', 'python DNA to protein', 'python', 'RNA to protein'],
+    url='https://github.com/khaledianehdieh/translate6frames',
+    download_url='https://pypi.org/project/translate6frames/'
 )
+
+install_requires = []
+
+if __name__ == '__main__':
+    setup(**setup_args, install_requires=install_requires)
