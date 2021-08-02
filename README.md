@@ -20,7 +20,7 @@ pip install translate6frames
 git clone https://github.com/khaledianehdieh/translate6frames.git
 ```
 
-## How to use
+## Usage
 
 ```
 python3
