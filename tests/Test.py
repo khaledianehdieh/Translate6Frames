@@ -1,6 +1,5 @@
 
 
-from translate6frames import Translate
-
-p1 = Translate("test.fa", "DNA")
-p1.Output()
+from translate6frames import translate6frames as TF
+p= TF.translate6frames("test.fa", "DNA")
+p.Output()
