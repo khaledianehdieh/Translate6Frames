@@ -22,7 +22,9 @@ git clone https://github.com/khaledianehdieh/translate6frames.git
 
 ## How to use
 
+```
 python3
 >>> from translate6frames import translate6frames as TF
 >>> p= TF.translate6frames(FASTA_FILE, TYPE) # the fasta file is the input file, the type is "DNA", or "RNA"
 >>> p.Output()
+```
